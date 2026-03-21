@@ -26,3 +26,12 @@ Por fim, o sistema exibe uma mensagem personalizada com base na escolha realizad
 
 
 ## Fluxograma
+
+### Início do Programa e pergunta
+![Início](fluxo_inicio.png)
+
+### Decisão lado 1
+![Pergunta](fluxo_pergunta1.png)
+
+### Decisão lado 2
+![Decisão](fluxo_resposta.png)
