@@ -16,5 +16,13 @@ O programa foi desenvolvido com o objetivo de contornar a limitação de intera�
 
 Como o simulador é mais focado no uso de sensores, foi desenvolvida uma solução alternativa para simular a interação com o usuário de forma simples e criativa, utilizando os recursos disponíveis na plataforma.
 
+### Etapas do Programa
+
+Ao iniciar o programa, o usuário é questionado sobre o seu nome. Devido à limitação do OctoStudio, essa etapa é simulada.
+
+Em seguida, o programa apresenta uma pergunta sobre preferência, como por exemplo se o usuário gosta de Pokémon, oferecendo opções de resposta como "sim" ou "não".
+
+Por fim, o sistema exibe uma mensagem personalizada com base na escolha realizada, simulando uma interação com o usuário.
+
 
 ## Fluxograma
