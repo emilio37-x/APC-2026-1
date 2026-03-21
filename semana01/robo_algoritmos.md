@@ -29,8 +29,6 @@ Por fim, o sistema exibe uma mensagem personalizada com base na escolha realizad
 
 ### Início do Programa e pergunta
 
-![Início](fluxo_inicio.png)
-
 <p style="text-align: center;">
   <img src="fluxo_inicio.png" width="400">
 </p>
@@ -40,7 +38,6 @@ Nesta etapa, o programa é iniciado com uma pergunta retórica sobre o nome do u
 
 
 ### Decisão lado 1
-![Pergunta](fluxo_pergunta1.png)
 
 <p style="text-align: center;">
   <img src="fluxo_pergunta1.png" width="400">
@@ -51,7 +48,6 @@ Nesta etapa, o fluxo segue pelo caminho correspondente à resposta "sim". Ao sel
 
 
 ### Decisão lado 2
-![Decisão](fluxo_pergunta2.png)
 
 <p style="text-align: center;">
   <img src="fluxo_pergunta2.png" width="400">
