@@ -33,10 +33,13 @@ Por fim, o sistema exibe uma mensagem personalizada com base na escolha realizad
 Nesta etapa, o programa é iniciado com uma pergunta retórica sobre o nome do usuário. Em seguida, o fluxo é direcionado para a pergunta principal, onde ocorre a tomada de decisão.
 
 
+
 ### Decisão lado 1
 ![Pergunta](fluxo_pergunta1.png)
 
 Nesta etapa, o fluxo segue pelo caminho correspondente à resposta "sim". Ao selecionar essa opção, o programa apresenta uma mensagem personalizada ao usuário.
+
+
 
 ### Decisão lado 2
 ![Decisão](fluxo_pergunta2.png)
