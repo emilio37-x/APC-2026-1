@@ -45,3 +45,9 @@ Nesta etapa, o fluxo segue pelo caminho correspondente à resposta "sim". Ao sel
 ![Decisão](fluxo_pergunta2.png)
 
 Nesta etapa, o fluxo segue pelo caminho correspondente à resposta "não". Ao selecionar essa opção, o programa apresenta uma mensagem alternativa ao usuário.
+
+
+
+## Arquivo do Projeto
+
+O arquivo do programa desenvolvido no OctoStudio está disponível nesta pasta para acesso e execução.
