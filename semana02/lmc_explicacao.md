@@ -1,4 +1,4 @@
-# Programa de contagem Progressi no LMC
+# Programa de contagem Progressiva no LMC
 
 # Descrição
 
