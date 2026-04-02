@@ -7,6 +7,16 @@ Este programa foi desenvolvido no LMC no intuito de realizar uma contagem progre
 A cada repetição, o contador é incrementado em uma unidade até atingir o valor informado. Quando o contador se iguala ao número de entrada, o programa é finalizado.
 
 
+## Fluxo Grama
+
+
+<p style="text-align: center;">
+  <img src="FLUXO(1).png" width="400">
+</p>
+
+Este fluxograma mostra o raciocínio matemático do algoritmo, realizando uma contagem de 0 até 
+𝑋, adicionando 1 a cada passo e mostrando essa sequência, e parando quando 𝑐 = 𝑋
+
 ## Estrutura do Código
 
 - `INP`: recebe o valor digitado pelo usuário  
