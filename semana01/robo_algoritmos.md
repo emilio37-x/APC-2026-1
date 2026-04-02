@@ -59,4 +59,4 @@ Nesta etapa, o fluxo segue pelo caminho correspondente à resposta "não". Ao se
 
 ## Arquivo do Projeto
 
-O arquivo do programa desenvolvido no OctoStudio está disponível nesta pasta para acesso e execução.
+O arquivo do programa desenvolvido no OctoStudio está disponível nesta pasta, baixe arquivo .octo e execute no Octostudio
