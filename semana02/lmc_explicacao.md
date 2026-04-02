@@ -7,7 +7,7 @@ Este programa foi desenvolvido no LMC no intuito de realizar uma contagem progre
 A cada repetição, o contador é incrementado em uma unidade até atingir o valor informado. Quando o contador se iguala ao número de entrada, o programa é finalizado.
 
 
-## Fluxo Grama
+## Fluxograma
 
 
 <p style="text-align: center;">
