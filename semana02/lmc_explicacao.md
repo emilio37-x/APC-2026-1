@@ -53,6 +53,13 @@ Saída:
 5
 
 
+<p style="text-align: center;">
+  <img src="saida1.png" width="400">
+</p>
+
+
+Imagem do programa funcionando e seus respectivos resultados
+
 ## Código
 
 ```asm
