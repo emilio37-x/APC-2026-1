@@ -11,7 +11,7 @@ A cada repetição, o contador é incrementado em uma unidade até atingir o val
 
 
 <p style="text-align: center;">
-  <img src="FLUXO(1).png" width="400">
+  <img src="FLUXO1.png" width="400">
 </p>
 
 Este fluxograma mostra o raciocínio matemático do algoritmo, realizando uma contagem de 0 até 
