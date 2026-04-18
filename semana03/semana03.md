@@ -231,3 +231,10 @@ drawSprites();
 ### 💡 Reflexão — Sprite Properties
 
 Foi possível compreender como a manipulação de propriedades permite alterar diretamente o tamanho e a aparência dos sprites, sendo essencial para ajustar elementos visuais e criar diferentes efeitos em jogos.
+
+
+## 💡 Reflexão geral da semana
+
+Durante esta semana foi possível compreender conceitos fundamentais de programação, como uso de variáveis, manipulação de coordenadas, geração de números aleatórios e criação de sprites.
+
+Além disso, foi possível perceber como o código influencia diretamente o comportamento visual dos elementos na tela, permitindo a construção de aplicações mais dinâmicas e interativas.
