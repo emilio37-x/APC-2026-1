@@ -214,7 +214,7 @@ function draw() {
 Foi possível compreender como a entrada de dados do usuário através do teclado e mouse permite criar interações diretas com os elementos na tela.
 
 
-## ⚡ Velocity
+## ⚡ Velocity - Velocidade
 
 Nesta etapa foi introduzido o conceito de velocidade, permitindo controlar o movimento dos sprites de forma mais natural e contínua. Além disso, foram utilizadas estruturas condicionais para impedir que o objeto ultrapasse os limites da tela, mantendo o movimento dentro das extremidades.
 
