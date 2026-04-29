@@ -13,6 +13,16 @@ Durante esta semana foram desenvolvidas atividades no Code.org com foco em conce
 - Controle de velocidade
 - Detecção de colisões
 
+## 🌐 Plataforma utilizada
+
+### Code.org
+
+Link: https://studio.code.org/courses/csd3-virtual/units/1
+
+<p style="text-align: center;">
+  <img src="plataforma1.png" width="400">
+</p>
+
 ## 🚀 Desafios concluídos
 
 ### 🔤Text - texto
