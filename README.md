@@ -72,6 +72,7 @@ Foi meu primeiro contato com JavaScript através do Code.org. No início, foi um
 ### 🗓 Semana 04
 
 Nesta etapa, os programas começaram a ter mais características de jogos, com a introdução de movimento nos sprites e a possibilidade de controlá-los por meio do teclado. Isso tornou o aprendizado mais interessante e mostrou como a programação pode ser aplicada de forma prática e interativa.
+
 ---
 
 ### 🗓 Semana 05
