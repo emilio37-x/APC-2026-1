@@ -47,6 +47,12 @@ Entrada do mouse
 Controle de velocidade
 Detecção de colisões
 
+### 🗓 Semana 05
+
+
+- Conteúdo: movimentação avançada de sprites, colisões e funções
+- Aprendizado: controle de trajetórias e gravidade, utilização de colisões entre objetos, organização do código através de funções, construção de cenários dinâmicos, desenvolvimento de jogos mais complexos e interativos.
+  
 ---
 
 ## 🧠 Reflexões
