@@ -59,6 +59,9 @@ Caso o jogador saia dos limites da tela, o jogo termina exibindo a mensagem de G
 
 ---
 
+### Mudança do cenário
+
+
 <p style="text-align: center;">
   <img src="cenário3.png" width="400">
 </p>
