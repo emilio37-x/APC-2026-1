@@ -52,7 +52,12 @@ Detecção de colisões
 
 - Conteúdo: movimentação avançada de sprites, colisões e funções
 - Aprendizado: controle de trajetórias e gravidade, utilização de colisões entre objetos, organização do código através de funções, construção de cenários dinâmicos, desenvolvimento de jogos mais complexos e interativos.
-  
+
+### 🗓 Semana 06
+
+
+Criação do jogo, com todos os conceitos aprendidos ao longo da semana na plataforme code.org utilizando javascripit
+
 ---
 
 ## 🧠 Reflexões
@@ -85,3 +90,10 @@ Nesta etapa, os programas começaram a ter mais características de jogos, com a
 
 
 Nesta semana os exercícios começaram a exigir mais atenção na organização da lógica e no comportamento dos objetos na tela. As colisões, movimentações mais complexas e o uso de funções mostraram como os jogos começam a ficar maiores e mais difíceis de controlar sem uma boa estrutura no código.
+
+### 🗓 Semana 06
+
+
+Durante o desenvolvimento deste jogo foi possível integrar diversos conceitos aprendidos ao longo das semanas anteriores em um único programa. A construção do jogo ajudou a compreender melhor como organizar a lógica, controlar sprites, trabalhar com colisões e estruturar códigos maiores utilizando funções.
+
+Além disso, foi interessante perceber como pequenas alterações podem modificar significativamente a experiência visual e a dinâmica do jogo.
