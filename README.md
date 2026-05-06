@@ -76,4 +76,6 @@ Nesta etapa, os programas começaram a ter mais características de jogos, com a
 ---
 
 ### 🗓 Semana 05
-[Adicionar reflexão futuramente]
+
+
+Nesta semana os exercícios começaram a exigir mais atenção na organização da lógica e no comportamento dos objetos na tela. As colisões, movimentações mais complexas e o uso de funções mostraram como os jogos começam a ficar maiores e mais difíceis de controlar sem uma boa estrutura no código.
