@@ -135,7 +135,7 @@ Cúriosidade: Essas ellipse com números randômicos é para simular as estrelas
 
 ### Testando o jogo
 
-O jogo está disponivel na plataforma code.org. Caso tenha interesse de testar acesse os links disponibilizados abaixo
+O jogo está disponivel na plataforma code.org. Caso tenha interesse de testar, acesse os links disponibilizados abaixo
 
 link: https://studio.code.org/projects/gamelab/8208a85b-28c3-4319-9289-3a68863d63b2
 link: https://studio.code.org/projects/gamelab/81a2d95a-6aa8-43c1-a1fe-2797caad47cc
