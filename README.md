@@ -56,7 +56,7 @@ Detecção de colisões
 ### 🗓 Semana 06
 
 
-Criação do jogo, com todos os conceitos aprendidos ao longo da semana na plataforme code.org utilizando javascripit
+- Criação do jogo, com todos os conceitos aprendidos ao longo da semana na plataforme code.org utilizando javascripit
 
 ---
 
