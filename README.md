@@ -58,6 +58,13 @@ Detecção de colisões
 
 - Criação do jogo, com todos os conceitos aprendidos ao longo da semana na plataforme code.org utilizando javascripit
 
+
+### 🗓 Semana 07
+
+- Primeiro contato com a linguagem C
+- escopo principal do código e onde se inicia
+- váriaveis 
+
 ---
 
 ## 🧠 Reflexões
@@ -101,5 +108,4 @@ Além disso, foi interessante perceber como pequenas alterações podem modifica
 
 ### 🗓 Semana 07
 
-
-Durante essa semana tivemos o primeiro contato com a lingugem C e também fizemos algumas atividades para fixar os conceitos lógicos da mesma.
+Reflexão em progresso
