@@ -97,3 +97,9 @@ Nesta semana os exercícios começaram a exigir mais atenção na organização 
 Durante o desenvolvimento deste jogo foi possível integrar diversos conceitos aprendidos ao longo das semanas anteriores em um único programa. A construção do jogo ajudou a compreender melhor como organizar a lógica, controlar sprites, trabalhar com colisões e estruturar códigos maiores utilizando funções.
 
 Além disso, foi interessante perceber como pequenas alterações podem modificar significativamente a experiência visual e a dinâmica do jogo.
+
+
+### 🗓 Semana 07
+
+
+Durante essa semana tivemos o primeiro contato com a lingugem C e também fizemos algumas atividades para fixar os conceitos lógicos da mesma.
