@@ -15,15 +15,19 @@ Este espaço apresenta um resumo do desenvolvimento semanal. Cada semana possui 
 
 ### 🗓 Semana 01
 
-robo algoritimo octostudio
+- robo algoritimo octostudio
 algoritmo
 
 - Aprendizado: primeiros contatos com lógica, fluxos e lógica senquencial
+
+---
 
 ### 🗓 Semana 02
 
 - Conteúdo: simulador CPU, contagem progressiva no LMC
 - Aprendizado: entendimento de instruções e execução No computador
+
+---
 
 ### 🗓 Semana 03
 
@@ -34,6 +38,8 @@ Introdução ao uso de variáveis
 Geração de números aleatórios
 Criação e manipulação de sprites
 Controle de propriedades dos sprites (posição, velocidade, escala)
+
+---
 
 ### 🗓 Semana 04
 
@@ -47,17 +53,22 @@ Entrada do mouse
 Controle de velocidade
 Detecção de colisões
 
+---
+
 ### 🗓 Semana 05
 
 
 - Conteúdo: movimentação avançada de sprites, colisões e funções
 - Aprendizado: controle de trajetórias e gravidade, utilização de colisões entre objetos, organização do código através de funções, construção de cenários dinâmicos, desenvolvimento de jogos mais complexos e interativos.
 
+---
+
 ### 🗓 Semana 06
 
 
 - Criação do jogo, com todos os conceitos aprendidos ao longo da semana na plataforme code.org utilizando javascripit
 
+---
 
 ### 🗓 Semana 07
 
@@ -113,4 +124,4 @@ Além disso, foi interessante perceber como pequenas alterações podem modifica
 
 ### 🗓 Semana 07
 
-Reflexão em progresso
+Nesta semana tive meu primeiro contato com a linguagem C, percebendo algumas diferenças em relação ao JavaScript utilizado anteriormente no Code.org. Os exercícios ajudaram a entender melhor como funciona a estrutura principal de um programa, o uso da função `main()` e a criação de variáveis. Apesar da sintaxe parecer mais rígida no início, foi interessante perceber como a linguagem oferece mais controle sobre o funcionamento do código.
