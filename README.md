@@ -78,6 +78,20 @@ Detecção de colisões
 
 ---
 
+
+### 🗓 Semana 08
+- Conteúdo: operadores e controle de fluxo na linguagem C
+- Aprendizado:
+  - utilização de operadores aritméticos e lógicos
+  - compreensão de incremento e módulo
+  - uso de estruturas condicionais (`if`, `else`, `switch`)
+  - utilização de laços de repetição (`for`, `while`)
+  - controle de execução com `break` e `continue`
+
+
+---
+
+
 ## 🧠 Reflexões
 
 ### 🗓 Semana 01
@@ -125,3 +139,9 @@ Além disso, foi interessante perceber como pequenas alterações podem modifica
 ### 🗓 Semana 07
 
 Nesta semana tive meu primeiro contato com a linguagem C, percebendo algumas diferenças em relação ao JavaScript utilizado anteriormente no Code.org. Os exercícios ajudaram a entender melhor como funciona a estrutura principal de um programa, o uso da função `main()` e a criação de variáveis. Apesar da sintaxe parecer mais rígida no início, foi interessante perceber como a linguagem oferece mais controle sobre o funcionamento do código.
+
+---
+
+### 🗓 Semana 08
+
+Nesta semana foi possível compreender melhor como os programas em linguagem `C` realizam cálculos, comparações e tomadas de decisão através dos operadores e estruturas de controle de fluxo. Os exercícios mostraram como pequenas mudanças nas condições alteram completamente o comportamento do programa, além de reforçar a importância dos laços de repetição para automatizar tarefas e tornar o código mais eficiente.
