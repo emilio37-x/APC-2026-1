@@ -91,6 +91,18 @@ Detecção de colisões
 
 ---
 
+### 🗓 Semana 09
+- Conteúdo: funções e pilha de chamadas na linguagem C
+- Aprendizado:
+  - criação e reutilização de funções
+  - passagem de parâmetros
+  - chamadas recursivas
+  - compreensão da pilha de chamadas
+  - organização do código em partes menores
+
+
+---
+
 
 ## 🧠 Reflexões
 
@@ -145,3 +157,10 @@ Nesta semana tive meu primeiro contato com a linguagem C, percebendo algumas dif
 ### 🗓 Semana 08
 
 Nesta semana foi possível compreender melhor como os programas em linguagem `C` realizam cálculos, comparações e tomadas de decisão através dos operadores e estruturas de controle de fluxo. Os exercícios mostraram como pequenas mudanças nas condições alteram completamente o comportamento do programa, além de reforçar a importância dos laços de repetição para automatizar tarefas e tornar o código mais eficiente.
+
+
+---
+
+### 🗓 Semana 09
+
+Nesta semana foi possível compreender melhor como as funções ajudam na organização e reutilização do código, tornando os programas mais estruturados e fáceis de entender. A visualização da pilha de chamadas também ajudou a perceber como as funções são executadas internamente na memória, principalmente em chamadas recursivas. Com isso, foi possível finalizar os conteúdos introdutórios em `C` com uma compreensão mais sólida sobre o funcionamento dos programas antes do início dos estudos em `Python`.
