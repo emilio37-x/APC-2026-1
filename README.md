@@ -114,6 +114,17 @@ Detecção de colisões
   - listas e referências a objetos
   - importação de módulos
 
+---
+
+### 🗓 Semana 11
+- Conteúdo: introdução à análise de dados com Python e Jupyter Notebook
+- Aprendizado:
+  - utilização do Jupyter Notebook
+  - organização de células de código e texto
+  - introdução aos Microdados da PDAD 2024
+  - carregamento e exploração de dados
+  - aplicação de Python para análise de dados
+  - compreensão da estrutura de bases de dados reais
 
 ## 🧠 Reflexões
 
@@ -176,6 +187,14 @@ Nesta semana foi possível compreender melhor como os programas em linguagem `C`
 
 Nesta semana foi possível compreender melhor como as funções ajudam na organização e reutilização do código, tornando os programas mais estruturados e fáceis de entender. A visualização da pilha de chamadas também ajudou a perceber como as funções são executadas internamente na memória, principalmente em chamadas recursivas. Com isso, foi possível finalizar os conteúdos introdutórios em `C` com uma compreensão mais sólida sobre o funcionamento dos programas antes do início dos estudos em `Python`.
 
+---
+
 ### 🗓 Semana 10
 
 Nesta semana foi iniciado o estudo da linguagem Python. Foi interessante perceber que muitos conceitos aprendidos em C continuam presentes, como variáveis, condicionais, laços e funções, porém com uma sintaxe mais simples e legível. Também foi possível observar algumas diferenças importantes, como o uso da indentação para definir blocos de código e o fato de variáveis funcionarem como referências para objetos. A transição mostrou que a base construída em C facilita bastante o aprendizado de uma nova linguagem.
+
+---
+
+### 🗓 Semana 11
+
+Nesta semana foi iniciado o uso do Python aplicado à análise de dados através dos Microdados da PDAD 2024. Foi interessante perceber como a programação pode ser utilizada para explorar grandes volumes de informação de forma organizada. O primeiro contato com o Jupyter Notebook também mostrou uma forma diferente de desenvolver código, combinando programação, resultados e documentação em um mesmo ambiente.
