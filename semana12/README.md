@@ -245,6 +245,6 @@ for _, linha in com_renda.iterrows():
 print(f'A média de salário dos valores é R$ {soma/len(com_renda):.2f}')
 ```
 
-- Com esse código vemos os salários dos moradores e a média salarias
+- Com esse código vemos os salários dos moradores e as médias saláriais
 
 ---

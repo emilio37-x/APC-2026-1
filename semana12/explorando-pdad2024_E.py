@@ -125,7 +125,7 @@ for _, linha in filtro.iterrows():
 
 # exercicio 2_4
 
-import pandas as pd
+'''import pandas as pd
 
 moradores = pd.read_csv("semana12/moradores.csv", sep=";", decimal=",", encoding="utf-8-sig")
 
@@ -137,4 +137,27 @@ print(f"Moradores com renda declarada: {len(com_renda)}")
 for _, linha in com_renda.iterrows():
     soma += linha['renda_ind']
     print(f"  {linha['morador_id']} — R$ {linha['renda_ind']:,.0f}")
-print(f'A média de salário dos valores é R$ {soma/len(com_renda):.2f}')
+print(f'A média de salário dos valores é R$ {soma/len(com_renda):.2f}')'''
+
+# exercicio 3_1
+
+import pandas as pd
+
+moradores = pd.read_csv("semana12/moradores.csv", sep=";", decimal=",", encoding="utf-8-sig")
+
+validos = moradores[moradores["idade_calculada"] != 99999].copy()
+lista = validos[["morador_id", "idade_calculada"]].head(450).to_dict("records")
+
+# Bubble Sort por idade
+n = len(lista)
+soma = 0
+for i in range(n):
+    for j in range(n - i - 1):
+        if lista[j]["idade_calculada"] > lista[j + 1]["idade_calculada"]:
+            lista[j], lista[j + 1] = lista[j + 1], lista[j]
+
+print("Moradores ordenados do mais novo ao mais velho:")
+for m in lista:
+    soma += 1
+    print(f"  {m['morador_id']}: {m['idade_calculada']} anos")
+print(f'Total de trocas para ordenar do menor para o maior {soma} vezes')
