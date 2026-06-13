@@ -19,7 +19,7 @@ Durante esta semana demos continuidade aos exercícios com os Microdados da PDAD
 Nesta semana foi utilizado o VS Code como ambiente principal para execução dos códigos em Python o arquivo está na pasta dessa semana, assim como os datafremes utilizados na análise dos dados.
 
 <p style="text-align: center;">
-  <img src="vscode.png" width="400">
+  <img src="vscode.png" width="600">
 </p>
 
 ---
@@ -33,7 +33,7 @@ Nesta etapa foram retomados os exercícios da Semana 11, buscando corrigir probl
 ---
 
 <p style="text-align: center;">
-  <img src="ex1.png" width="400">
+  <img src="ex1.png" width="600">
 </p>
 
 - Código da resolução
@@ -51,7 +51,7 @@ Com isso sabemos que a planilha moradores.csv, possui 69542 linhas e 134 colunas
 ---
 
 <p style="text-align: center;">
-  <img src="ex1_2.png" width="400">
+  <img src="ex1_2.png" width="600">
 </p>
 
 - Código da resolução
@@ -68,7 +68,7 @@ print(moradores[colunas])
 ---
 
 <p style="text-align: center;">
-  <img src="ex1_3.png" width="400">
+  <img src="ex1_3.png" width="600">
 </p>
 
 - Código da resolução
@@ -100,7 +100,7 @@ Com esse código tambem conseguimos saber o domicilio com maior quantidades de c
 ---
 
 <p style="text-align: center;">
-  <img src="ex1_4.png" width="400">
+  <img src="ex1_4.png" width="600">
 </p>
 
 - Código da resolução
@@ -122,7 +122,7 @@ print(adultos[["morador_id", "idade_calculada"]])
 ---
 
 <p style="text-align: center;">
-  <img src="ex2_1.png" width="400">
+  <img src="ex2_1.png" width="600">
 </p>
 
 - Código da resolução
@@ -163,7 +163,7 @@ print(f'Morador com menor idade tem {minimo} anos')
 ---
 
 <p style="text-align: center;">
-  <img src="ex2_2.png" width="400">
+  <img src="ex2_2.png" width="600">
 </p>
 
 - Código da resolução
@@ -202,7 +202,7 @@ for nivel, total in contagem.items():
 ---
 
 <p style="text-align: center;">
-  <img src="ex2_3.png" width="400">
+  <img src="ex2_3.png" width="600">
 </p>
 
 - Código da resolução
@@ -225,7 +225,7 @@ for _, linha in filtro.iterrows():
 ---
 
 <p style="text-align: center;">
-  <img src="ex2_4.png" width="400">
+  <img src="ex2_4.png" width="600">
 </p>
 
 - Código da resolução
@@ -248,3 +248,28 @@ print(f'A média de salário dos valores é R$ {soma/len(com_renda):.2f}')
 - Com esse código vemos os salários dos moradores e as médias saláriais
 
 ---
+
+
+<p style="text-align: center;">
+  <img src="ex3_1.png" width="600">
+</p>
+
+- Código da resolução
+```python
+n = len(lista)
+soma = 0
+for i in range(n):
+    for j in range(n - i - 1):
+        if lista[j]["idade_calculada"] > lista[j + 1]["idade_calculada"]:
+            lista[j], lista[j + 1] = lista[j + 1], lista[j]
+
+print("Moradores ordenados do mais novo ao mais velho:")
+for m in lista:
+    soma += 1
+    print(f"  {m['morador_id']}: {m['idade_calculada']} anos")
+print(f'Total de trocas para ordenar do menor para o maior {soma} vezes')
+```
+
+- Com esse código vemos as idades ordenadas do menor para o maior,
+
+OBS: Tive que limitar a lista com as iformações do datafreme já que com a quantidade de linhas que possui o metodo Bubble sort trava.
