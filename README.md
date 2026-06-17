@@ -126,6 +126,21 @@ Detecção de colisões
   - aplicação de Python para análise de dados
   - compreensão da estrutura de bases de dados reais
 
+---
+
+### 🗓 Semana 12
+- Conteúdo: Microdados da PDAD 2024 em Python
+- Aprendizado:
+  - Manipulação de dados com Pandas
+  - Filtragem e seleção de registros
+  - Uso de listas e dicionários
+  - Ordenação de dados com Bubble Sort, Selection Sort e Insertion Sort
+  - Comparação do desempenho de algoritmos de ordenação
+  - Processamento e análise de dados reais
+  - Desenvolvimento em ambiente local utilizando VS Code
+
+---
+
 ## 🧠 Reflexões
 
 ### 🗓 Semana 01
@@ -198,3 +213,9 @@ Nesta semana foi iniciado o estudo da linguagem Python. Foi interessante percebe
 ### 🗓 Semana 11
 
 Nesta semana foi iniciado o uso do Python aplicado à análise de dados através dos Microdados da PDAD 2024. Foi interessante perceber como a programação pode ser utilizada para explorar grandes volumes de informação de forma organizada. O primeiro contato com o Jupyter Notebook também mostrou uma forma diferente de desenvolver código, combinando programação, resultados e documentação em um mesmo ambiente.
+
+---
+
+### 🗓 Semana 12
+
+Nesta semana os exercícios com os Microdados da PDAD 2024 foram refeitos e ampliados utilizando Python no VS Code, substituindo o ambiente Jupyter Notebook. Foram realizadas operações de leitura, filtragem e análise de dados, além da implementação e comparação de algoritmos de ordenação (Bubble Sort, Selection Sort e Insertion Sort) aplicados aos dados da pesquisa. A mudança para o ambiente local permitiu maior estabilidade na execução dos programas e aprofundamento dos conceitos de manipulação de dados com Pandas.
