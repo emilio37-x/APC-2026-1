@@ -141,6 +141,19 @@ Detecção de colisões
 
 ---
 
+### 🗓 Semana 13
+
+- Introdução ao Tkinter
+- Criação de janelas gráficas com Python
+- Configuração de propriedades da janela
+- Utilização da classe `Tk()`
+- Definição de título e dimensões da interface
+- Estrutura básica de uma aplicação gráfica
+- Loop principal de eventos com `mainloop()`
+- Primeiro contato com interfaces gráficas (GUI)
+
+---
+
 ## 🧠 Reflexões
 
 ### 🗓 Semana 01
@@ -219,3 +232,11 @@ Nesta semana foi iniciado o uso do Python aplicado à análise de dados através
 ### 🗓 Semana 12
 
 Nesta semana os exercícios com os Microdados da PDAD 2024 foram refeitos e ampliados utilizando Python no VS Code, substituindo o ambiente Jupyter Notebook. Foram realizadas operações de leitura, filtragem e análise de dados, além da implementação e comparação de algoritmos de ordenação (Bubble Sort, Selection Sort e Insertion Sort) aplicados aos dados da pesquisa. A mudança para o ambiente local permitiu maior estabilidade na execução dos programas e aprofundamento dos conceitos de manipulação de dados com Pandas.
+
+---
+
+### 🗓 Semana 13
+
+A criação da primeira janela permitiu compreender os conceitos fundamentais necessários para o desenvolvimento de interfaces gráficas em Python. Foi possível observar como uma aplicação gráfica é estruturada, desde a criação da janela principal até o funcionamento contínuo da interface através do loop de eventos. Embora simples, a atividade demonstrou uma nova forma de interação entre usuário e programa, servindo como base para a utilização de componentes gráficos mais avançados nas próximas etapas do aprendizado.
+
+---
