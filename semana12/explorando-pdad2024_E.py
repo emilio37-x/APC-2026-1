@@ -244,7 +244,7 @@ for ra in ras:
 #exercicio 4_1
 
 # relatorio_moradores.py
-import sys
+'''import sys
 import pandas as pd
 
 if len(sys.argv) < 2:
@@ -273,4 +273,89 @@ with open(arquivo_saida, "w", encoding="utf-8") as f:
     for linha in linhas:
         f.write(linha + "\n")
 
-print(f"Relatório salvo em: {arquivo_saida}")
+print(f"Relatório salvo em: {arquivo_saida}")'''
+
+#exercicio 4_3
+
+# analise_ra.py
+import sys
+import pandas as pd
+
+RA_NOMES = {
+    5249: "Arniqueira",    5301: "Brasília",       5303: "Taguatinga",
+    5305: "Sobradinho",    5311: "Cruzeiro",        5313: "Ceilândia",
+    5314: "Sobradinho II", 5315: "Jardim Botânico", 5319: "Lago Sul",
+    5320: "Gama",          5326: "Samambaia",       5328: "Santa Maria",
+    5330: "São Sebastião",
+}
+
+ESCOLARIDADE = {1:"Sem instrução",2:"Fund. incompleto",3:"Fund. completo",
+                4:"Médio incompleto",5:"Médio completo",6:"Superior incompleto",
+                7:"Superior completo",8:"Pós-graduação"}
+
+def bubble_sort_por_idade(lista):
+    n = len(lista)
+    for i in range(n):
+        for j in range(n - i - 1):
+            if lista[j]["idade"] > lista[j + 1]["idade"]:
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+    return lista
+
+def gerar_relatorio(ra_codigo):
+    moradores = pd.read_csv("semana12/moradores.csv", sep=";", decimal=",", encoding="utf-8-sig")
+    filtro = moradores[moradores["localidade"] == ra_codigo]
+
+    if filtro.empty:
+        print(f"Nenhum dado encontrado para a RA {ra_codigo}.")
+        sys.exit(1)
+
+    ra_nome = RA_NOMES.get(ra_codigo, f"RA-{ra_codigo}")
+    validos = filtro[filtro["idade_calculada"] != 99999]
+    idades = validos["idade_calculada"].tolist()
+
+    lista_moradores = []
+    for _, linha in validos.iterrows():
+        lista_moradores.append({
+            "id": linha["morador_id"],
+            "idade": linha["idade_calculada"],
+            "escolaridade": ESCOLARIDADE.get(linha["escolaridade"], "?"),
+            "renda": linha["renda_ind"] if linha["renda_ind"] != 99999 else None,
+        })
+    lista_moradores = bubble_sort_por_idade(lista_moradores)
+
+    linhas = []
+    linhas.append("=" * 55)
+    linhas.append(f"  PDAD 2024 — Análise da RA: {ra_nome} (cód. {ra_codigo})")
+    linhas.append("=" * 55)
+    linhas.append(f"  Total de moradores na amostra : {len(filtro)}")
+    linhas.append(f"  Com idade declarada           : {len(validos)}")
+    if idades:
+        linhas.append(f"  Média de idade                : {sum(idades)/len(idades):.1f} anos")
+        linhas.append(f"  Faixa etária                  : {min(idades)} a {max(idades)} anos")
+    linhas.append("")
+    linhas.append("  Moradores (ordenados por idade):")
+    linhas.append("  " + "-" * 50)
+    for m in lista_moradores:
+        renda_str = f"R$ {m['renda']:,.0f}" if m["renda"] else "não declarada"
+        linhas.append(f"  {m['id']:12s} | {m['idade']:3d} anos | {m['escolaridade']:25s} | {renda_str}")
+    linhas.append("")
+    return linhas, ra_nome
+
+if len(sys.argv) < 2:
+    print("Uso: python analise_ra.py <codigo_ra> [arquivo_saida.txt]")
+    print("Exemplo: python analise_ra.py 5320")
+    print("Exemplo: python analise_ra.py 5320 relatorio_gama.txt")
+    sys.exit(1)
+
+ra = int(sys.argv[1])
+linhas, nome = gerar_relatorio(ra)
+
+for linha in linhas:
+    print(linha)
+
+if len(sys.argv) >= 3:
+    with open(sys.argv[2], "w", encoding="utf-8") as f:
+        for linha in linhas:
+            f.write(linha + "\n")
+    print(f"\n  Relatório salvo em: {sys.argv[2]}")
+
