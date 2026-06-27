@@ -154,6 +154,18 @@ Detecção de colisões
 
 ---
 
+### 🗓 Semana 14
+
+- Conteúdo: Continuação do desenvolvimento de interfaces gráficas com Tkinter
+- Aprendizado:
+  - Organização de interfaces com `grid()`
+  - Tratamento de eventos com `bind()`
+  - Captura de eventos do teclado e do mouse
+  - Utilização de caixas de diálogo
+  - Desenvolvimento de interfaces mais interativas
+
+---
+
 ## 🧠 Reflexões
 
 ### 🗓 Semana 01
@@ -240,3 +252,7 @@ Nesta semana os exercícios com os Microdados da PDAD 2024 foram refeitos e ampl
 A criação da primeira janela permitiu compreender os conceitos fundamentais necessários para o desenvolvimento de interfaces gráficas em Python. Foi possível observar como uma aplicação gráfica é estruturada, desde a criação da janela principal até o funcionamento contínuo da interface através do loop de eventos. Embora simples, a atividade demonstrou uma nova forma de interação entre usuário e programa, servindo como base para a utilização de componentes gráficos mais avançados nas próximas etapas do aprendizado.
 
 ---
+
+### 🗓 Semana 14
+
+Nesta semana foram aprofundados os conceitos de interfaces gráficas com Tkinter, explorando novas formas de organizar componentes, tratar eventos do usuário e utilizar caixas de diálogo. As atividades permitiram compreender melhor como construir aplicações mais organizadas, interativas e próximas de programas utilizados no dia a dia.
