@@ -1,6 +1,6 @@
 from utils.filtros import obter_dados_filtrados
 
-
+# faz os calculos das estátisticas que serão mostrados na tela
 def calcular_estatisticas(dados_filtrados):
     quantidade = len(dados_filtrados)
 
@@ -22,7 +22,7 @@ def calcular_estatisticas(dados_filtrados):
         "maior": maior
     }
 
-
+# atualiza os filtros que foram aplicados
 def atualizar_estatisticas(dados, ras, combo_ra, combo_genero, combo_escolaridade, combo_cor, labels):
     dados_filtrados = obter_dados_filtrados(
         dados,

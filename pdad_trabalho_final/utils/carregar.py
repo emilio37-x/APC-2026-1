@@ -2,8 +2,9 @@ import pandas as pd
 from pathlib import Path
 import pandas as pd
 
+#carrega o dataframe e dá os seus parametros de leitura e armazena na variavel moradores
 
-def carregar_dados():
+def carregar_dados(): 
 
     caminho = Path(__file__).resolve().parent.parent / "dados" / "moradores.csv"
 
@@ -11,7 +12,7 @@ def carregar_dados():
 
     return moradores
 
-
+#remove os valores invalidos de acordo com o dicionário do projeto pdad
 def tratar_dados(moradores):
     dados = moradores[["localidade", "renda_ind", "escolaridade", "id_genero", "E05"]].copy()
 
@@ -20,7 +21,7 @@ def tratar_dados(moradores):
 
     return dados
 
-
+#funcionalidade abaixo
 def carregar_ras():
     """
     Retorna um dicionário com os códigos e nomes das Regiões Administrativas

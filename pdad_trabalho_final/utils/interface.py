@@ -7,6 +7,7 @@ from utils.graficos import mostrar_graficos
 from utils.exportacao import exportar_estatisticas
 from utils.ranking import mostrar_top5_ras
 
+# Cria a janela principal do progrma
 
 def criar_janela(dados):
     """
@@ -34,6 +35,13 @@ def criar_janela(dados):
     )
     descricao.pack(pady=(0, 12))
 
+    autor = tk.Label(
+        janela,
+        text="Desenvolvido por Emilio de Souza Santos Júnior",
+        font=("Arial", 10, "italic")
+    )
+    autor.pack(pady=(0, 10))
+
     registros = tk.Label(
         janela,
         text=f"Registros válidos para análise: {len(dados)} moradores",
@@ -49,6 +57,7 @@ def criar_janela(dados):
 
     return janela
 
+# cria a lista dos filtros na tela
 
 def criar_filtros(janela, ras):
     """
@@ -142,7 +151,7 @@ def criar_filtros(janela, ras):
 
     return combo_ra, combo_genero, combo_escolaridade, combo_cor
 
-
+# cria a area onde irar mostra as analizes na interface como está comentado a baixo  
 def criar_area_estatisticas(janela):
     """
     Cria os rótulos que exibem as estatísticas na interface.

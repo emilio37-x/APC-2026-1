@@ -4,7 +4,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 from utils.filtros import obter_dados_filtrados
 
-
+# mostra o grafico na tela, atraves do histograma separado em 30 intervalos
 def mostrar_graficos(dados, ras, combo_ra, combo_genero, combo_escolaridade, combo_cor):
     dados_filtrados = obter_dados_filtrados(
         dados,
@@ -58,6 +58,7 @@ def mostrar_graficos(dados, ras, combo_ra, combo_genero, combo_escolaridade, com
     canvas.draw()
     canvas.get_tk_widget().pack(fill="both", expand=True)
 
+    #fecha o grafico para não ficar rodando em segundo plano
     def fechar_grafico():
         plt.close("all")
         janela_grafico.destroy()

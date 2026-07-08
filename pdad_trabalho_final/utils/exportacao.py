@@ -3,6 +3,7 @@ from tkinter import filedialog
 from utils.filtros import obter_dados_filtrados
 from utils.estatisticas import calcular_estatisticas
 
+#Exporta um arquivo txt com os filtros aplicados e as informações geradas
 
 def exportar_estatisticas(dados, ras, combo_ra, combo_genero, combo_escolaridade, combo_cor):
     dados_filtrados = obter_dados_filtrados(

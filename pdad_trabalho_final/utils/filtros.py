@@ -1,3 +1,5 @@
+# cria os filtros
+
 def filtrar_dados(dados, ra=None, genero=None, escolaridade=None, cor=None):
     dados_filtrados = dados.copy()
 
@@ -15,7 +17,7 @@ def filtrar_dados(dados, ra=None, genero=None, escolaridade=None, cor=None):
 
     return dados_filtrados
 
-
+#recebe os dados filtrados e armazena para ser mostrado na tela
 def obter_dados_filtrados(dados, ras, combo_ra, combo_genero, combo_escolaridade, combo_cor):
     generos = {
         "Todos os gêneros": None,
