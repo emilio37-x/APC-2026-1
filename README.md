@@ -166,6 +166,21 @@ Detecção de colisões
 
 ---
 
+### 🗓 Semana 15
+
+- Conteúdos trabalhados:
+- Modularização de projetos em Python;
+- Manipulação de dados utilizando Pandas;
+- Desenvolvimento de interfaces gráficas com Tkinter;
+- Geração de gráficos com Matplotlib;
+- Leitura e tratamento de arquivos CSV;
+- Implementação do algoritmo Bubble Sort;
+- Organização de projetos utilizando Git e GitHub;
+- Documentação do projeto com README e requirements.txt.
+
+
+---
+
 ## 🧠 Reflexões
 
 ### 🗓 Semana 01
@@ -256,3 +271,8 @@ A criação da primeira janela permitiu compreender os conceitos fundamentais ne
 ### 🗓 Semana 14
 
 Nesta semana foram aprofundados os conceitos de interfaces gráficas com Tkinter, explorando novas formas de organizar componentes, tratar eventos do usuário e utilizar caixas de diálogo. As atividades permitiram compreender melhor como construir aplicações mais organizadas, interativas e próximas de programas utilizados no dia a dia.
+
+### 🗓 Semana 15
+
+O desenvolvimento do projeto permitiu aplicar, de forma integrada, diversos conteúdos estudados durante a disciplina. Além da implementação das funcionalidades, foi necessário compreender a importância da organização do código, da separação de responsabilidades entre módulos e da documentação do projeto. Também foi uma oportunidade para praticar a resolução de problemas durante o desenvolvimento e validar o funcionamento do sistema em diferentes ambientes, tornando a aplicação mais robusta e preparada para utilização por outros usuários.
+
