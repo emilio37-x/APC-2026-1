@@ -1,6 +1,6 @@
 import tkinter as tk
 
-
+#usando a rend_ind, usamos o metodo buble sort para ordenar do maior para o menor de acordo com as Ras
 def ranking_ras_bubble_sort(dados, ras):
     ranking = []
 
@@ -21,7 +21,7 @@ def ranking_ras_bubble_sort(dados, ras):
 
     return ranking[:5]
 
-
+# aqui cria uma janela onde irá mostrar o top 5 da lista que ordenamos e crimaos a cimaa com o buble sort
 def mostrar_top5_ras(dados, ras):
     top5 = ranking_ras_bubble_sort(dados, ras)
 
