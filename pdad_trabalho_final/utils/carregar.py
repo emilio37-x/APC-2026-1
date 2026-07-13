@@ -1,3 +1,4 @@
+#importa as bibliotecas necessárias para esse módulo
 import pandas as pd
 from pathlib import Path
 import pandas as pd

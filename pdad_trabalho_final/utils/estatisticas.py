@@ -1,3 +1,4 @@
+# importa o módulo e a função que será necessarias para esse módulo
 from utils.filtros import obter_dados_filtrados
 
 # faz os calculos das estátisticas que serão mostrados na tela

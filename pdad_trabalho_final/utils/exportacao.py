@@ -1,5 +1,5 @@
+#importa os modulos e as bibliotecas necessarias para funcionar
 from tkinter import filedialog
-
 from utils.filtros import obter_dados_filtrados
 from utils.estatisticas import calcular_estatisticas
 

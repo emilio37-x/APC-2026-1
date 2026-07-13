@@ -1,3 +1,6 @@
+#Codigo desenvolvido por Emilio de Souza Santos júnior
+
+# exporta os módulos do progrma para main, para reconhecer as funcionalidades 
 from utils.carregar import carregar_dados, tratar_dados, carregar_ras
 from utils.interface import criar_janela, criar_filtros, criar_area_estatisticas, criar_botoes
 
